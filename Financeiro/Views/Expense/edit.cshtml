@@ -1,0 +1,83 @@
+﻿@model Financeiro.Models.Expense
+
+@{
+    ViewBag.Title = "edit";
+}
+
+<h2>Editar gasto</h2>
+
+
+<form action="/Expense/edit" method='post'>
+    <div class="form-horizontal">
+        <h4></h4>
+        <hr />
+        <input type="hidden" name="id" value="@ViewBag.item.id" />
+        <div class="form-group">
+            <div class="col-md-10">
+                Valor do Gasto: <input type="text" name="value" class="form-control" value="@ViewBag.item.value" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                Data do gasto: <input type="date" name="date" class="form-control" value='@ViewBag.item.date.ToString("yyyy-MM-dd")' runat="server" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                Classificação do gasto:
+                <select name="classification.id" class="form-control">
+                    @foreach (var item in ViewBag.Classification)
+                    {
+                        if (item.id == ViewBag.item.classification.id)
+                        {
+                            <option value="@item.id" selected> @item.name </option>
+                        }
+                        else
+                        {
+                            <option value="@item.id"> @item.name </option>
+                        }
+
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-10">
+                Fonte do gasto:
+                <select name="source.id" class="form-control">
+                    @foreach (var item in ViewBag.Sources)
+                    {
+                        if (item.id == ViewBag.item.source.id)
+                        {
+                            <option value="@item.id" selected> @item.name </option>
+                        }
+                        else
+                        {
+                            <option value="@item.id"> @item.name </option>
+                        }
+                    }
+                </select>
+            </div>
+        </div>
+
+
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Editar" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    @Html.ActionLink("Retornar ao inicio", "Index")
+</div>
+
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

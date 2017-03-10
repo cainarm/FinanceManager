@@ -1,0 +1,114 @@
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\roslyn\csc.exe
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\roslyn\vbc.exe
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\roslyn\VBCSCompiler.exe
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\Financeiro.dll.config
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\Financeiro.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\Financeiro.pdb
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\MySql.Data.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\System.Web.Helpers.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\System.Web.Mvc.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\System.Web.Razor.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\System.Web.Webpages.Deployment.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\System.Web.Webpages.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\System.Web.Webpages.Razor.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\System.Web.Razor.xml
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\System.Web.Webpages.xml
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\System.Web.Webpages.Deployment.xml
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\System.Web.Webpages.Razor.xml
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\System.Web.Helpers.xml
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\bin\System.Web.Mvc.xml
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\obj\Debug\Financeiro.dll
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\obj\Debug\Financeiro.pdb
+C:\Users\cainarm\documents\visual studio 2015\Projects\Financeiro\Financeiro\obj\Debug\Financeiro.csprojResolveAssemblyReference.cache
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\obj\Debug\Financeiro.csprojResolveAssemblyReference.cache
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\obj\Debug\Financeiro.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\obj\Debug\Financeiro.pdb
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\roslyn\csc.exe
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\roslyn\vbc.exe
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\roslyn\VBCSCompiler.exe
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\Financeiro.dll.config
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\Financeiro.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\Financeiro.pdb
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\EntityFramework.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\EntityFramework.SqlServer.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\MySql.Data.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\MySql.Data.Entity.EF6.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\System.Web.Helpers.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\System.Web.Mvc.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\System.Web.Razor.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\System.Web.Webpages.Deployment.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\System.Web.Webpages.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\System.Web.Webpages.Razor.dll
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\EntityFramework.xml
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\EntityFramework.SqlServer.xml
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\System.Web.Razor.xml
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\System.Web.Webpages.xml
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\System.Web.Webpages.Deployment.xml
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\System.Web.Webpages.Razor.xml
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\System.Web.Helpers.xml
+C:\Users\cainarm\Documents\Visual Studio 2015\Projects\FinanceiroOrm\Financeiro\bin\System.Web.Mvc.xml
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\roslyn\csc.exe
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\roslyn\vbc.exe
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\roslyn\VBCSCompiler.exe
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\Financeiro.dll.config
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\Financeiro.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\Financeiro.pdb
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\EntityFramework.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\EntityFramework.SqlServer.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\MySql.Data.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\MySql.Data.Entity.EF6.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\System.Web.Helpers.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\System.Web.Mvc.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\System.Web.Razor.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\System.Web.Webpages.Deployment.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\System.Web.Webpages.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\System.Web.Webpages.Razor.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\EntityFramework.xml
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\EntityFramework.SqlServer.xml
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\System.Web.Razor.xml
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\System.Web.Webpages.xml
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\System.Web.Webpages.Deployment.xml
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\System.Web.Webpages.Razor.xml
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\System.Web.Helpers.xml
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\bin\System.Web.Mvc.xml
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\obj\Debug\Financeiro.csprojResolveAssemblyReference.cache
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\obj\Debug\Financeiro.dll
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\obj\Debug\Financeiro.pdb
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\obj\Debug\Financeiro.Migrations.initialMigration.resources
+C:\Users\cassi\Downloads\FinanceiroOrm\Financeiro\obj\Debug\Financeiro.csproj.GenerateResource.Cache

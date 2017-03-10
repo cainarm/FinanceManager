@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Financeiro.Models.Classification>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Gerenciar Classificações</h2>
+
+<p>
+    <a href="/Classification/create">Criar nova classificação de despesa</a> 
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Nome
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.name
+        </td>
+        <td>
+            <a class="btn btn-primary" href="/Classification/edit/@item.id">Editar</a> |
+            <a class="btn btn-danger" href="/Classification/delete/@item.id">deletar</a> |
+        </td>
+    </tr>
+}
+
+</table>

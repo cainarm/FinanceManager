@@ -1,0 +1,37 @@
+﻿@model Financeiro.Models.Classification
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Criar classificação <h2>
+
+
+<form method="post" action="/Classification/create">
+
+    <div class="form-horizontal">
+      
+        <hr />
+        <div class="form-group">
+             
+            <div class="col-md-10">
+                Nome:
+                <input type="text" class="form-control" name="name"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+    
+</form>
+<div>
+    @Html.ActionLink("Voltar ao index", "Index")
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

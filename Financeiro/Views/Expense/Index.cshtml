@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Financeiro.Models.Expense>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Indice</h2>
+
+<p>
+    <a href="/Expense/create">Criar nova despesa</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Valor
+        </th>
+        <th>
+            Data
+        </th>
+        <th>
+            Fonte
+        </th>
+        <th>
+            Classificação
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.value
+        </td>
+        <td>
+            @item.date.ToShortDateString()
+        </td>
+        <td>
+            @item.source.name
+        </td>
+        <td>
+            @item.classification.name
+        </td>
+        
+        <td>
+            <a class="btn btn-primary" href="/Expense/edit/@item.id">Editar</a> 
+            <a class="btn btn-danger" href="/Expense/delete/@item.id">deletar</a> 
+        </td>
+    </tr>
+}
+
+</table>
+<hr>
+<div class="row" style="margin-top:30px">
+    <form action="/" method="get">
+       
+        <div class="col-sm-2">
+            Pesquisar dispesas:
+        </div>
+        <div class="col-sm-4">
+            <input type="date" name="date" value="" class="form-control" />
+        </div>
+        <div class="col-sm-4">
+            <select name="source" class="form-control">
+                <option value="0"> Nenhum </option>
+                @foreach (var item in ViewBag.Sources)
+                {
+                    <option value="@item.id"> @item.name </option>
+                }
+            </select>
+
+        </div>
+        <div class="col-sm-2">
+            <input type="submit" " value="PESQUISAR" />
+        </div>
+        
+    </form>
+</div>
+<div class="row" style="margin-top:30px">
+    <div class="col-sm-3"><a class="btn btn-default" href="/Classification/">gerenciar classificações</a><br> </div>
+    <div class="col-sm-3"><a class="btn btn-default" href="/Source/">gerenciar Fontes</a> </div>
+    
+    
+</div>
+

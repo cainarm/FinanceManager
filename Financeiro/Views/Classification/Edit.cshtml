@@ -1,0 +1,37 @@
+﻿@model Financeiro.Models.Classification
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Editar Classificação </h2>
+
+
+<form method="post" action="/Classification/edit">
+
+    <div class="form-horizontal">
+        <hr />
+        <div class="form-group">
+            <input type="hidden" name="id" value="@ViewBag.classification.id" />
+            <div class="col-md-10">
+                Nome:
+                <input type="text" class="form-control" name="name" value= "@ViewBag.classification.name "/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+    
+</form>
+
+<div>
+    @Html.ActionLink("Voltar ao Index", "Index")
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

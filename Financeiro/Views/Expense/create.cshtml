@@ -1,0 +1,67 @@
+﻿@model Financeiro.Models.Expense
+
+@{
+    ViewBag.Title = "Inserir Gasto";
+}
+
+<h2>Inserir novo Gasto</h2>
+
+
+<form action="/Expense/create" method='post'>
+    <div class="form-horizontal">
+        <h4></h4>
+        <hr />
+       
+        <div class="form-group">
+             <div class="col-md-10">
+                Valor do Gasto: <input type="text" name="value" class="form-control" value="" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                Data do gasto: <input type="date" name="date" class="form-control" value="YY-MM-DD" runat="server" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                Classificação do gasto:
+                <select name="classification.id" class="form-control">
+                    @foreach (var item in ViewBag.Classification)
+                    {
+                        <option value="@item.id"> @item.name </option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-10">
+                Fonte do gasto:
+                <select name="source.id" class="form-control">
+                    @foreach (var item in ViewBag.Sources)
+                    {
+                        <option value="@item.id"> @item.name </option>
+                    }
+                </select>
+            </div>
+        </div>
+
+
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+       
+<div>
+    @Html.ActionLink("Retornar ao inicio", "Index")
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
