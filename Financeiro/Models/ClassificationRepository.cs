@@ -1,48 +1,44 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
-using Associations.Connections;
-using System.Text;
-using MySql.Data.MySqlClient;
 using System.Data.Entity;
 
 namespace Financeiro.Models
 {
     public class ClassificationRepository
     {
-        private  Context db = new Context();
+        private readonly Context _db = new Context();
 
-        public IEnumerable<Classification> getAll()
+        public IEnumerable<Classification> GetAll()
         {
-            return db.classification.ToList();
+            return _db.Classification.ToList();
         }
-        public void create(Classification cl)
+        public void Create(Classification cl)
         {
-            db.classification.Add(cl);
-            db.SaveChanges();
+            _db.Classification.Add(cl);
+            _db.SaveChanges();
         }
-        public void edit(Classification cl)
+        public void Edit(Classification cl)
         {
-            db.Entry(cl).State = EntityState.Modified;
-            db.SaveChanges();
+            _db.Entry(cl).State = EntityState.Modified;
+            _db.SaveChanges();
 
         }
-        public void delete(int id)
+        public void Delete(int id)
         {
             try
             {
-                db.classification.Remove(getById(id));
-                db.SaveChanges();
+                _db.Classification.Remove(GetById(id));
+                _db.SaveChanges();
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.ToString());
             }
         }
-        public Classification getById(int id)
+        public Classification GetById(int id)
         {
-           return db.classification.Find(id);
+           return _db.Classification.Find(id);
         }
     }
 }

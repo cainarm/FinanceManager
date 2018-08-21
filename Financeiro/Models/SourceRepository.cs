@@ -1,38 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
-using Associations.Connections;
-using System.Text;
-using MySql.Data.MySqlClient;
 using System.Data.Entity;
 
 namespace Financeiro.Models
 {
     public class SourceRepository
     {
-        Context db = new Context();
+	    readonly Context _db = new Context();
 
-        public IEnumerable<Source> getAll()
+        public IEnumerable<Source> GetAll()
         {
-            return db.source.ToList();
+            return _db.Source.ToList();
         }
-        public void create(Source sr)
+        public void Create(Source sr)
         {
-            db.source.Add(sr);
-            db.SaveChanges();
+            _db.Source.Add(sr);
+            _db.SaveChanges();
         }
-        public void edit(Source sr)
+        public void Edit(Source sr)
         {
-            db.Entry(sr).State = EntityState.Modified;
-            db.SaveChanges();
+            _db.Entry(sr).State = EntityState.Modified;
+            _db.SaveChanges();
         }
-        public void delete(int id)
+        public void Delete(int id)
         {
             try
             {
-                db.source.Remove(getById(id));
-                db.SaveChanges();
+                _db.Source.Remove(GetById(id));
+                _db.SaveChanges();
             }
             catch (Exception e)
             {
@@ -40,9 +36,9 @@ namespace Financeiro.Models
             }
 
         }
-        public Source getById(int id)
+        public Source GetById(int id)
         {
-            return db.source.Find(id);
+            return _db.Source.Find(id);
         }
     }
 }

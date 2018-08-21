@@ -1,51 +1,47 @@
-﻿using Associations.Connections;
-using MySql.Data.MySqlClient;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Web;
 
 namespace Financeiro.Models
 {
     public class ExpenseRepository
     {
-        private Context db = new Context();
+        private readonly Context _db = new Context();
        
 
-        public IEnumerable<Expense> getAll()
+        public IEnumerable<Expense> GetAll()
         {
-            return db.expense.Include(s => s.source).Include(c => c.classification).ToList();
+            return _db.Expense.Include(s => s.Source).Include(c => c.Classification).ToList();
         }
-        public Expense getById(int id)
+        public Expense GetById(int id)
         {
-            return db.expense.Include(s => s.source).Include(c => c.classification).Where(i => i.id==id).FirstOrDefault();
+            return _db.Expense.Include(s => s.Source).Include(c => c.Classification).Where(i => i.Id==id).FirstOrDefault();
         }
-        public void create(Expense expense)
+        public void Create(Expense expense)
         {
-            expense.source = db.source.Find(expense.source.id);
-            expense.classification = db.classification.Find(expense.classification.id);
+            expense.Source = _db.Source.Find(expense.Source.Id);
+            expense.Classification = _db.Classification.Find(expense.Classification.Id);
 
-            db.expense.Add(expense);
-            db.SaveChanges();
+            _db.Expense.Add(expense);
+            _db.SaveChanges();
 
         }
 
-      public void edit(Expense expense)
+      public void Edit(Expense expense)
       {
-            expense.source = db.source.Find(expense.source.id);
-            expense.classification = db.classification.Find(expense.classification.id);
+            expense.Source = _db.Source.Find(expense.Source.Id);
+            expense.Classification = _db.Classification.Find(expense.Classification.Id);
 
-            db.Entry(expense).State = EntityState.Modified;
-            db.SaveChanges();
+            _db.Entry(expense).State = EntityState.Modified;
+            _db.SaveChanges();
         }
-      public void delete(int id)
+      public void Delete(int id)
       {
             try
             {
-                db.expense.Remove(getById(id));
-                db.SaveChanges();
+                _db.Expense.Remove(GetById(id));
+                _db.SaveChanges();
             }
             catch (Exception e)
             {
@@ -53,13 +49,13 @@ namespace Financeiro.Models
             }
 
         }
-        public IEnumerable<Expense> getByDate(DateTime date)
+        public IEnumerable<Expense> GetByDate(DateTime date)
         {
-            return db.expense.Include(s => s.source).Include(c => c.classification).Where(d => d.date == date).ToList();
+            return _db.Expense.Include(s => s.Source).Include(c => c.Classification).Where(d => d.Date == date).ToList();
         }
-        public IEnumerable<Expense> getByDateAndSource(int source, DateTime date)
+        public IEnumerable<Expense> GetByDateAndSource(int source, DateTime date)
         {
-            return db.expense.Include(s => s.source).Include(c => c.classification).Where(d => d.date == date && d.source.id == source).ToList();
+            return _db.Expense.Include(s => s.Source).Include(c => c.Classification).Where(d => d.Date == date && d.Source.Id == source).ToList();
         }
     }
 }

@@ -20,11 +20,11 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @item.name
+            @item.Name
         </td>
         <td>
-            <a class="btn btn-primary" href="/Classification/edit/@item.id">Editar</a> |
-            <a class="btn btn-danger" href="/Classification/delete/@item.id">deletar</a> |
+            <a class="btn btn-primary" href="/Classification/edit/@item.Id">Editar</a> |
+            <a class="btn btn-danger" href="/Classification/delete/@item.Id">deletar</a> |
         </td>
     </tr>
 }

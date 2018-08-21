@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 
 namespace Financeiro.Models
 {
     public class Classification
     {
-        public int id { get; set; }
-        public string name { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
 
-        public virtual IEnumerable<Expense> expenses { get; set; }
+        public virtual IEnumerable<Expense> Expenses { get; set; }
     }
 }

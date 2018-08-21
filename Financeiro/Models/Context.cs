@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Web;
+﻿using System.Data.Entity;
 
 namespace Financeiro.Models
 {
@@ -12,8 +8,8 @@ namespace Financeiro.Models
             : base("Context")
         {
         }
-        public DbSet<Expense> expense { get; set; }
-        public DbSet<Source> source { get; set; }
-        public DbSet<Classification> classification { get; set; }
+        public DbSet<Expense> Expense { get; set; }
+        public DbSet<Source> Source { get; set; }
+        public DbSet<Classification> Classification { get; set; }
     }
 }
