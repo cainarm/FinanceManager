@@ -1,8 +1,4 @@
 ﻿using Financeiro.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace Financeiro.Controllers
@@ -14,7 +10,7 @@ namespace Financeiro.Controllers
        
         public ActionResult Index()
         {
-            return View(_rep.getAll());
+            return View(_rep.GetAll());
         }
 
 
@@ -26,13 +22,13 @@ namespace Financeiro.Controllers
         [HttpPost]
         public ActionResult Create(Classification cl)
         {
-                _rep.create(cl);
+                _rep.Create(cl);
                 return RedirectToAction("Index");
         }
 
         public ActionResult Edit(int id)
         {
-            ViewBag.classification= (Classification) _rep.getById(id);
+            ViewBag.classification= (Classification) _rep.GetById(id);
 
             return View();
         }
@@ -40,14 +36,14 @@ namespace Financeiro.Controllers
         [HttpPost]
         public ActionResult Edit(Classification cl)
         {
-                _rep.edit(cl);
+                _rep.Edit(cl);
                 return RedirectToAction("Index");
         }
 
         public ActionResult Delete(int id)
         {
    
-                _rep.delete(id);
+                _rep.Delete(id);
                 return RedirectToAction("Index");
         }
     }

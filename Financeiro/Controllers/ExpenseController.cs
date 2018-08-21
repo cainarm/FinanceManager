@@ -1,8 +1,5 @@
 ﻿using Financeiro.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace Financeiro.Controllers
@@ -15,19 +12,19 @@ namespace Financeiro.Controllers
        
         public ActionResult Index()
         {
-            ViewBag.Sources = _SourceRep.getAll();
+            ViewBag.Sources = _SourceRep.GetAll();
             try
             {
                 if (Request["date"] != null)
                 {
                     if (Request["source"] != null && Int32.Parse(Request["source"]) != 0)
                     {
-                        return View(_rep.getByDateAndSource(Int32.Parse(Request["source"]), DateTime.Parse(Request["date"])));
+                        return View(_rep.GetByDateAndSource(Int32.Parse(Request["source"]), DateTime.Parse(Request["date"])));
                     }
                     else
                     {
 
-                        return View(_rep.getByDate(DateTime.Parse(Request["date"])));
+                        return View(_rep.GetByDate(DateTime.Parse(Request["date"])));
                     }
                 }
 
@@ -37,13 +34,13 @@ namespace Financeiro.Controllers
 
             }
            
-            return View(_rep.getAll());
+            return View(_rep.GetAll());
         }
 
         public ActionResult create()
         {
-            ViewBag.Classification = _ClassRep.getAll();
-            ViewBag.Sources = _SourceRep.getAll();
+            ViewBag.Classification = _ClassRep.GetAll();
+            ViewBag.Sources = _SourceRep.GetAll();
 
             return View( );
         }
@@ -52,27 +49,27 @@ namespace Financeiro.Controllers
         public ActionResult create(Expense exp)
         {
            
-            _rep.create(exp);
+            _rep.Create(exp);
             return RedirectToAction("");
         }
 
         public ActionResult delete(int id)
         {
-            _rep.delete(id);
+            _rep.Delete(id);
             return RedirectToAction("");
         }
         public ActionResult edit(int id)
         {
-            ViewBag.Classification = _ClassRep.getAll();
-            ViewBag.Sources = _SourceRep.getAll();
-            ViewBag.item = _rep.getById(id);
+            ViewBag.Classification = _ClassRep.GetAll();
+            ViewBag.Sources = _SourceRep.GetAll();
+            ViewBag.item = _rep.GetById(id);
             return View();
         }
 
         [HttpPost]
         public ActionResult edit(Expense exp)
         {
-            _rep.edit(exp);
+            _rep.Edit(exp);
             return RedirectToAction("");
         }
     }

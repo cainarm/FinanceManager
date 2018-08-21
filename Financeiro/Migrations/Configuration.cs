@@ -1,19 +1,16 @@
 namespace Financeiro.Migrations
 {
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Migrations;
-    using System.Linq;
+	using System.Data.Entity.Migrations;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Financeiro.Models.Context>
+	internal sealed class Configuration : DbMigrationsConfiguration<Models.Context>
     {
         public Configuration()
         {
-            SetSqlGenerator("MySql.Data.MySqlClient", new MySql.Data.Entity.MySqlMigrationSqlGenerator());
+            //SetSqlGenerator("MySql.Data.MySqlClient", new MySql.Data.Entity.MySqlMigrationSqlGenerator());
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Financeiro.Models.Context context)
+        protected override void Seed(Models.Context context)
         {
             //  This method will be called after migrating to the latest version.
 

@@ -29,21 +29,21 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @item.value
+            @item.Value
         </td>
         <td>
-            @item.date.ToShortDateString()
+            @item.Date.ToShortDateString()
         </td>
         <td>
-            @item.source.name
+            @item.Source.Name
         </td>
         <td>
-            @item.classification.name
+            @item.Classification.Name
         </td>
         
         <td>
-            <a class="btn btn-primary" href="/Expense/edit/@item.id">Editar</a> 
-            <a class="btn btn-danger" href="/Expense/delete/@item.id">deletar</a> 
+            <a class="btn btn-primary" href="/Expense/edit/@item.Id">Editar</a> 
+            <a class="btn btn-danger" href="/Expense/delete/@item.Id">deletar</a> 
         </td>
     </tr>
 }

@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -136,9 +137,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201611252148172_initialMigration.cs" />
-    <Compile Include="Migrations\201611252148172_initialMigration.Designer.cs">
-      <DependentUpon>201611252148172_initialMigration.cs</DependentUpon>
+    <Compile Include="Migrations\201808211528028_initialMigration.cs" />
+    <Compile Include="Migrations\201808211528028_initialMigration.Designer.cs">
+      <DependentUpon>201808211528028_initialMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Classification.cs" />
@@ -177,8 +178,8 @@
     <Folder Include="lib\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201611252148172_initialMigration.resx">
-      <DependentUpon>201611252148172_initialMigration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201808211528028_initialMigration.resx">
+      <DependentUpon>201808211528028_initialMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
